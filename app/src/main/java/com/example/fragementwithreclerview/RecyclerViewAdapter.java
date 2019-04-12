@@ -31,8 +31,8 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public void onBindViewHolder( MyViewHolder myViewHolder, int position) {
-      //  myViewHolder.tv_name.setText(mData.get(position).getName());
-      //  myViewHolder.tv_phone.setText(mData.get(position).getPhone());
+       myViewHolder.tv_name.setText(mData.get(position).getName());
+//       myViewHolder.tv_phone.setText(mData.get(position).getPhone());
         myViewHolder.img.setImageResource(mData.get(position).getPhoto());
 
     }
@@ -43,17 +43,17 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     public static class MyViewHolder extends RecyclerView.ViewHolder{
 
-       // private TextView tv_name;
-       // private TextView tv_phone;
+       private TextView tv_name;
+    ///    private TextView tv_phone;
         private ImageView img;
 
 
-        public MyViewHolder(@NonNull View itemView) {
+        public MyViewHolder( View itemView) {
             super(itemView);
-           // tv_name=(TextView)itemView.findViewById(R.id.name_contacts);
-          //  tv_phone=(TextView)itemView.findViewById(R.id.phone_contact);
-            img=(ImageView)itemView.findViewById(R.id.img_contact);
-           img=(ImageView)itemView.findViewById(R.id.img_contact2);
+            tv_name=(TextView)itemView.findViewById(R.id.textView);
+        //    tv_phone=(TextView)itemView.findViewById(R.id.phone_contact);
+            img=(ImageView)itemView.findViewById(R.id.imageView);
+
 
         }
     }
