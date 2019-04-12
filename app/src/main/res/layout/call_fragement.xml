@@ -7,7 +7,9 @@
     <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/call_recylerview">
+        android:id="@+id/call_recylerview"
+        >
+
     </android.support.v7.widget.RecyclerView>
 
 </LinearLayout>
