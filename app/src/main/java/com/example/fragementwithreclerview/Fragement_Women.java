@@ -38,17 +38,23 @@ public class Fragement_Women extends Fragment {
 
 
         FirstContact =new ArrayList<>();
-        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.amazon));
-        FirstContact.add(new contact("yash","(64636)346437",R.drawable.flipcart));
-        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.myantra));
-        FirstContact.add(new contact("yash","(64636)346437",R.drawable.snapdeal));
+        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.voonik));
+        FirstContact.add(new contact("yash","(64636)346437",R.drawable.zivame));
+        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.limeroad));
+        FirstContact.add(new contact("yash","(64636)346437",R.drawable.nykaa));
 
-        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.shopcluse));
-        FirstContact.add(new contact("yash","(64636)346437",R.drawable.snapdeal));
-        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.myantra));
-        FirstContact.add(new contact("yash","(64636)346437",R.drawable.snapdeal));
-        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.jobong));
-        FirstContact.add(new contact("yash","(64636)346437",R.drawable.amazon));
+        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.biba));
+        FirstContact.add(new contact("yash","(64636)346437",R.drawable.craftsvilla));
+        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.stalkbuylove));
+        FirstContact.add(new contact("yash","(64636)346437",R.drawable.faballey));
+        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.clovia));
+        FirstContact.add(new contact("yash","(64636)346437",R.drawable.chumbak));
+        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.preetyscrets));
+        FirstContact.add(new contact("yash","(64636)346437",R.drawable.wforwomen));
+        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.bluestone));
+        FirstContact.add(new contact("yash","(64636)346437",R.drawable.voylla));
+        FirstContact.add(new contact("sanjay","(111)235325235",R.drawable.flipcart));
+
         RecyclerViewAdapter recyclerViewAdapter=new RecyclerViewAdapter(getContext(),FirstContact);
         recylerview.setAdapter(recyclerViewAdapter);
 

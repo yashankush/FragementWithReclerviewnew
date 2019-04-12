@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
 
-        tabLayout.getTabAt(0).setIcon(R.drawable.ic_call_black_24dp);
+       /* tabLayout.getTabAt(0).setIcon(R.drawable.ic_call_black_24dp);
         tabLayout.getTabAt(1).setIcon(R.drawable.ic_contacts_black_24dp);
         tabLayout.getTabAt(2).setIcon(R.drawable.ic_favorite_black_24dp);
         tabLayout.getTabAt(3).setIcon(R.drawable.ic_contacts_black_24dp);
         tabLayout.getTabAt(4).setIcon(R.drawable.ic_contacts_black_24dp);
         tabLayout.getTabAt(5).setIcon(R.drawable.ic_contacts_black_24dp);
         tabLayout.getTabAt(6).setIcon(R.drawable.ic_contacts_black_24dp);
-
+*/
 
 
 
