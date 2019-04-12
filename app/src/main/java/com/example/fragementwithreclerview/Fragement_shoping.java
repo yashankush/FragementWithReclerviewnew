@@ -34,6 +34,7 @@ public class Fragement_shoping extends Fragment {
 
 
         FirstContact = new ArrayList<>();
+        ///
         FirstContact.add(new contact("sanjay", "(111)235325235", R.drawable.love));
         FirstContact.add(new contact("yash", "(64636)346437", R.drawable.flipcart));
         FirstContact.add(new contact("sanjay", "(111)235325235", R.drawable.love));

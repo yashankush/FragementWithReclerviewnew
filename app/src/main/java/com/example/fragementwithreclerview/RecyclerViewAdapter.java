@@ -33,6 +33,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     public void onBindViewHolder( MyViewHolder myViewHolder, int position) {
        myViewHolder.tv_name.setText(mData.get(position).getName());
 //       myViewHolder.tv_phone.setText(mData.get(position).getPhone());
+        //if you want to show phone
         myViewHolder.img.setImageResource(mData.get(position).getPhoto());
 
     }
